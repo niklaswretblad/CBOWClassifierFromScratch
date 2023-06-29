@@ -3,8 +3,6 @@
 import numpy as np
 
 
-# The next four functions are adapted from CBOW_Classifier.ipynb
-
 def load_data(filename, max_length=20):
     items = []
     with open(filename, 'rt', encoding='utf-8') as fp:
